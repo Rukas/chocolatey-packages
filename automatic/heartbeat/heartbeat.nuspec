@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>heartbeat</id>
+    <version>6.4.0</version> 
+    <packageSourceUrl>https://github.com/rukas/chocolatey-packages/tree/master/automatic/heartbeat</packageSourceUrl>
+    <owners>rukas</owners>
+    <title>heartbeat</title>
+    <authors>Lucas Schill</authors>
+    <projectUrl>https://www.elastic.co/downloads/beats/heartbeat</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/rukas/chocolatey-packages/624898d9/automatic/heartbeat/icons/heartbeat.png</iconUrl>
+    <copyright></copyright>
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <licenseUrl>https://cdn.rawgit.com/rukas/chocolatey-packages/624898d9/automatic/heartbeat/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/elastic/beats/tree/6.4/heartbeat</projectSourceUrl>
+    <docsUrl>https://www.elastic.co/guide/en/beats/heartbeat/6.4/index.html</docsUrl>
+    <tags>heartbeat beat elastic admin</tags>
+    <summary>heartbeat is an open source shipper for real-time network packet analyzer</summary>
+    <description><![CDATA[Contains the chocolatey package for heartbeat
+]]></description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
